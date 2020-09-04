@@ -1,5 +1,5 @@
 for tempConversions in range(3):
-    inputCelsiusString = input("Enter the Temperature in C: ")
-    tempInC = float(inputCelsiusString)
-    tempInF = 1.8 * tempInC + 32
-    print( "The Temperature in F is", tempInF, "degrees" )
+    inputFahrenheitString = input ("Enter the temp in F: ")
+    tempinF = float(inputFahrenheitString)
+    tempinC = (tempinF - 32.0) * (5.0/9.0)
+    print( "The temp in C is", tempinC, "degrees" )
