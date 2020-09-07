@@ -1,5 +1,5 @@
-inputballsmanufacturedstring = input ("How many bowling balls will be manufactured? ")
-inputdiameterstring = input ("What is the diameter of each ball in inches? ") 
-coreVstring = input ("What is the core volume in inches cubed? ")
-coreVstring = float(4.0/3.0) * (3.14 * 4.25**3)
-
+ballsmanufacturedstring = input ("How many bowling balls will be manufactured? ")
+diameterstring = input ("What is the diameter of each ball in inches? ") 
+volumestring = input ("What is the core volume in inches cubed? ")
+coreVolume = float(input(100 * 197.55))
+print( "You will need", coreVolume, "inches cubed of filler."
