@@ -4,7 +4,7 @@ import graphics as g
 
 
 win = g.GraphWin("My House", 700, 500)
-
+win.setBackground("purple")
 
 DISTANCE_FROM_EDGE_TO_LEFT_WALL = 100
 DISTANCE_FROM_TOP_TO_TOP_OF_HOUSE = 300
@@ -30,6 +30,15 @@ upper_right_point = lower_right_point.clone()
 upper_right_point.move(0,-HEIGHT_OF_HOUSE) 
 
 right_side_roof_line = g.Line(roof_peak_point,upper_right_point)
+
+bush_1 = g.Rectangle(g.Point(400,350),g.Point(600,400))
+bush_1.setFill("green")
+bush_1.draw(win)
+
+bush_2 = g.Rectangle(g.Point(450,300),g.Point(550,350))
+bush_2.setFill("green")
+bush_2.draw(win)
+
 
 center_of_sun = roof_peak_point.clone()
 center_of_sun.move(-50, -75)
