@@ -43,7 +43,7 @@ right_side_roof_line.draw(win)
 left_side_roof_line.draw(win)
 
 house = g.Rectangle(upper_left_point, lower_right_point)
-#house.setFill("blue")
+house.setFill("blue")
 house.draw(win)
 
 
@@ -52,6 +52,5 @@ label.draw(win)
 
 
 
-#win.getMouse()
-#house.setFill("yellow")
-#win.setFill("purple")
+win.getMouse()
+house.setFill("yellow")
